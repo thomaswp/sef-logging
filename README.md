@@ -12,3 +12,8 @@
 
 1. Run `npm run dev`: This runs webpack on both this repo and on SEF (in case you need to make updates to SEF).
 2. Run a webhost and go to `sef\snap`. Snap should now show logging in the console.
+
+# Deploying
+
+* The `sef/snap` folder should be a stand-alone, deployable, client-only webpage that can be hosted on any web server.
+* If using only the `snap` folder, you should copy `build/your-module.js` to the `snap/libraries` folder and update `snap/libraries/sef-config.js` to point to that library (instead of the build directory in the root folder).
