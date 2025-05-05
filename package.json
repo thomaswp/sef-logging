@@ -14,6 +14,11 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "sef": "file:sef"
+    "axios": "^1.9.0",
+    "moment": "^2.30.1",
+    "openapi-typescript-codegen": "^0.29.0",
+    "ps2": "file:ps2",
+    "sef": "file:sef",
+    "uuid": "^11.1.0"
   }
 }

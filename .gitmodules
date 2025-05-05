@@ -1,3 +1,6 @@
 [submodule "sef"]
 	path = sef
 	url = https://github.com/thomaswp/SnapExtensionFramework.git
+[submodule "ps2"]
+	path = ps2
+	url = https://github.ncsu.edu/twprice/ProgSnap2-Client.git
